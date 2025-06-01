@@ -12,7 +12,7 @@ const USER_AGENTS = [
 
 const TARGET = process.argv[2];
 if (!TARGET) {
-    console.error('Usage: node nuclear.js <target_url>');
+    console.error('Usage: node ediop3HTTP.js <target_url>');
     process.exit(1);
 }
 
